@@ -11,4 +11,4 @@ function print_numbers() {
     console.log("10");
 }
 
-print_numbers()
+print_numbers();
