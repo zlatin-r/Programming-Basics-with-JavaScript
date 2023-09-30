@@ -5,4 +5,4 @@ function square_area(input) {
     console.log(area);
 }
 
-square_area();
+square_area(["5"]);
