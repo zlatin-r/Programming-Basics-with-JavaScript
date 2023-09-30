@@ -5,4 +5,4 @@ function inch_to_cm(input) {
     console.log(result);
 }
 
-inch_to_cm(["1"]);
+inch_to_cm(["5"]);
