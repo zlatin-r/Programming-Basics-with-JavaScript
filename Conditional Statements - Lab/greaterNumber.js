@@ -3,9 +3,9 @@ function greaterNumber(input) {
     let b = Number(input[1]);
 
     if (a > b) {
-        console.log("a");
+        console.log(a);
     } else {
-        console.log("b");
+        console.log(b);
     }
 }
 
