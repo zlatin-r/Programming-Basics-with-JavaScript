@@ -3,18 +3,14 @@ function sumSeconds(input) {
     let secondTime = Number(input[1]);
     let thirdTime = Number(input[2]);
     let total_time = firstTime + secondTime + thirdTime;
-    let seconds = 0;
-    let minutes = 0;
+    let minutes = Math.floor(total_time / 60);
+    let seconds = total_time % 60;
 
-    if (total_time < 60) {
-        seconds = total_time
-    } else if (total_time >= 60) {
-        minutes = Math.floor(total_time/60)
-        seconds = total_time - minutes
+    if (seconds < 10) {
+        console.log(`${minutes}:0${seconds}`);
+    } else {
+        console.log(`${minutes}:${seconds}`)
     }
-   
-
-    console.log(total_time)
 }   
 
 sumSeconds(["35", "45", "44"])
