@@ -2,9 +2,9 @@ function evenOrOdd(input) {
     let num = Number(input[0]);
 
     if (num % 2 === 0) {
-        console.log("Even")
+        console.log("even");
     } else {
-        console.log("Odd")
+        console.log("odd");
     }
 }
 
