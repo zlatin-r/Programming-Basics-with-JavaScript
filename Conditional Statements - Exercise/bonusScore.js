@@ -1,0 +1,3 @@
+function bonusScore(input) {
+    
+}
