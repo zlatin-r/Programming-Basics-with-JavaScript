@@ -14,4 +14,4 @@ function speedInfo(input) {
     }
 }       
 
-speedInfo(["3500"])
+speedInfo(["1100"])
