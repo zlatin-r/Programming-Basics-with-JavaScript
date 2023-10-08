@@ -20,4 +20,4 @@ function areaOfFigures(input) {
     console.log(area.toFixed(3));
 }
 
-areaOfFigures(["circle", "6"])
+areaOfFigures(["rectangle", "7", "2.5"])
