@@ -18,10 +18,10 @@ function shopping(input) {
 
     if (finalPrice <= budget) {
         let restMoney = budget - finalPrice;
-        console.log(`You have ${restMoney.toFixed(2)} leva left!`)
+        console.log(`You have ${restMoney.toFixed(2)} leva left!`);
     } else {
         let neededMoney = finalPrice - budget;
-        console.log(`Not enough money! You need ${neededMoney.toFixed(2)} leva more!`)
+        console.log(`Not enough money! You need ${neededMoney.toFixed(2)} leva more!`);
     }
 }
 
