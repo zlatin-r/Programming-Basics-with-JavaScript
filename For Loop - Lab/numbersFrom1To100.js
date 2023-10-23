@@ -3,4 +3,5 @@ function numbersFrom1To100() {
         console.log(i);
     }
 }
+
 numbersFrom1To100()
