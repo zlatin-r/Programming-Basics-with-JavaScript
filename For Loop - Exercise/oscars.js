@@ -1,3 +1,3 @@
 function oscars(input) {
-    
+    let 
 }

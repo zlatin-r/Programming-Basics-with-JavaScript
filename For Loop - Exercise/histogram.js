@@ -1,6 +1,5 @@
 function histogram(input) {
     let index = 0;
-
     let n = Number(input[index]);
 
     index++;
