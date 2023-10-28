@@ -2,16 +2,17 @@ function graduation(input) {
     let index = 0;
     let name = input[index];
     index++;
+
     let currentClass = 1;
     let sum_grades = 0;
     let badGradeCounter = 0;
-    let flag = false
+    let flag = false;
 
     while (currentClass <= 12) {
         let grade = Number(input[index]);
 
         if (badGradeCounter === 2) {
-            flag = true
+            flag = true;
             break;
         }
         if (grade < 4.00) {
@@ -26,7 +27,7 @@ function graduation(input) {
     if (flag){
         console.log(`${name} has been excluded at ${currentClass} grade`);
     } else {
-        console.log(`${name} graduated. Average grade: ${(sum_grades/12).toFixed(2)}`)
+        console.log(`${name} graduated. Average grade: ${(sum_grades/12).toFixed(2)}`);
     }
 }
 
