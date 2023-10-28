@@ -1,0 +1,3 @@
+function garduation(input) {
+    
+}
