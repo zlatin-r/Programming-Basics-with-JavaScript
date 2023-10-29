@@ -29,14 +29,14 @@ function vacation(input) {
             spendCounter = 0;
         }
         command = input[index];
-        index++
+        index++;
     }
     if (spendCounter === 5) {
-        console.log("You can't save the money.")
-        console.log(`${days_count}`)
+        console.log("You can't save the money.");
+        console.log(`${days_count}`);
     }
     else {
-        console.log(`You saved the money for ${days_count} days.`)
+        console.log(`You saved the money for ${days_count} days.`);
     }
 }
 
