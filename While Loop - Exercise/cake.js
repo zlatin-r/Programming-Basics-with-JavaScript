@@ -4,25 +4,20 @@ function cake(input) {
     index++;
     let length = Number(input[index]);
     index++;
-    let cake_size = width * length;
+    let total_pieces = width * length;
     let piece = input[index];
     index++;
 
-    while (cake_size >= 0) {
-        if (piece !== "STOP") {
-            cake_size -= Number(piece);
-            piece = input[index];
-            index++;
-        }
-        else {
-            break;
-        }
+    while (total_pieces > 0 && piece !== "STOP") {
+        total_pieces -= Number(piece);
+        piece = input[index];
+        index++;
     }
-    if (piece === "STOP") {
-        console.log(`${cake_size} pieces are left.`);
+    if (total_pieces <= 0) {
+        console.log(`No more cake left! You need ${Math.abs(total_pieces)} pieces more.`);
     } 
     else {
-        console.log(`No more cake left! You need ${Math.abs(cake_size)} pieces more.`);
+        console.log(`${total_pieces} pieces are left.`);
     }
 }
 
