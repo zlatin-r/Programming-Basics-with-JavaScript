@@ -8,7 +8,7 @@ function moving(input) {
     index++;
     let command = input[index];
     index++;
-    let free_space = width * length * heigth
+    let free_space = width * length * heigth;
 
     while (command !== "Done" && free_space > 0) {
         free_space -= Number(command);
@@ -19,7 +19,7 @@ function moving(input) {
         console.log(`${free_space} Cubic meters left.`);
     } 
     else {
-        console.log(`No more free space! You need ${Math.abs(free_space)} Cubic meters more.`)
+        console.log(`No more free space! You need ${Math.abs(free_space)} Cubic meters more.`);
     }
 }
 
