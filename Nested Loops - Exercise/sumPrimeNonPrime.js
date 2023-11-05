@@ -1,0 +1,3 @@
+function sumPrimeNonPrime(input) {
+    
+}
