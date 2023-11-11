@@ -14,8 +14,8 @@ function fruitMarket(input) {
     console.log(totalPrice.toFixed(2));
 }
 
-fruitMarket[("48")],
-[("10")],
-[("3.3")],
-[("6.5")],
-[("1.7")]
+fruitMarket(["48",
+"10",
+"3.3",
+"6.5",
+"1.7"])
