@@ -10,6 +10,7 @@ function suitcasesLoad(input) {
     while (suitcase != "End") {
         suitcase = Number(suitcase)
         counter++;
+        
         if (counter % 3 === 0) {
             suitcase *= 1.10;
         }
